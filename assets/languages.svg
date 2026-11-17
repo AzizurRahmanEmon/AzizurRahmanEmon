@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="268" viewBox="0 0 1200 268" role="img" aria-labelledby="title desc">
+  <title id="title">Language mix across all public and private repositories</title>
+  <desc id="desc">TypeScript 53.14%, HTML 16.65%, JavaScript 13.83%, CSS 11.55%, SCSS 4.81%. Snapshot 17 Nov 2026, Asia/Dhaka. Computed from GitHub language bytes across 135 repositories (96 private, 39 public). Dockerfile, Shell, and PHP together are 0.02% and are omitted from the bars.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="268" rx="16"/></clipPath>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="268" fill="#0D1117"/>
+    <path d="M0 1h1200" stroke="url(#accent-line)" stroke-width="2"/>
+    <text x="48" y="40" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#E6EDF3">Languages across 135 repositories</text>
+    <text x="48" y="62" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">Public and private, by GitHub language bytes · Snapshot 17 Nov 2026 (Asia/Dhaka)</text>
+    <text x="1152" y="40" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#22D3EE">96 private · 39 public</text>
+    <text x="48" y="102" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">TypeScript</text>
+    <rect x="210" y="98" width="820" height="12" rx="6" fill="#161B22"/>
+    <rect x="210" y="98" width="436" height="12" rx="6" fill="#22D3EE"/>
+    <text x="1080" y="102" font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">53.14%</text>
+    <text x="48" y="132" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">HTML</text>
+    <rect x="210" y="128" width="820" height="12" rx="6" fill="#161B22"/>
+    <rect x="210" y="128" width="137" height="12" rx="6" fill="#22D3EE"/>
+    <text x="1080" y="132" font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">16.65%</text>
+    <text x="48" y="162" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">JavaScript</text>
+    <rect x="210" y="158" width="820" height="12" rx="6" fill="#161B22"/>
+    <rect x="210" y="158" width="113" height="12" rx="6" fill="#22D3EE"/>
+    <text x="1080" y="162" font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">13.83%</text>
+    <text x="48" y="192" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">CSS</text>
+    <rect x="210" y="188" width="820" height="12" rx="6" fill="#161B22"/>
+    <rect x="210" y="188" width="95" height="12" rx="6" fill="#22D3EE"/>
+    <text x="1080" y="192" font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">11.55%</text>
+    <text x="48" y="222" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3">SCSS</text>
+    <rect x="210" y="218" width="820" height="12" rx="6" fill="#161B22"/>
+    <rect x="210" y="218" width="39" height="12" rx="6" fill="#22D3EE"/>
+    <text x="1080" y="222" font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">4.81%</text>
+    <text x="48" y="250" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Top 5 languages shown (99.98% of 46,647,098 bytes). Dockerfile, Shell, and PHP together are 0.02%.</text>
+    <path d="M0 267h1200" stroke="url(#accent-line)" stroke-width="2"/>
+  </g>
+</svg>

@@ -15,8 +15,8 @@
     <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&amp;logo=linkedin&amp;logoColor=22D3EE" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://x.com/Azizur_rahmanE">
-    <img src="https://img.shields.io/badge/X-0D1117?style=flat-square&amp;logo=x&amp;logoColor=22D3EE" alt="X" />
+  <a href="https://x.com/rmnlab">
+    <img src="https://img.shields.io/badge/X-@rmnlab-0D1117?style=flat-square&amp;logo=x&amp;logoColor=22D3EE" alt="X @rmnlab" />
   </a>
   &nbsp;
   <a href="mailto:hello@azizur-rahman.com">
@@ -28,6 +28,12 @@
   </a>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=AzizurRahmanEmon&amp;style=flat-square&amp;color=22D3EE&amp;label=Profile+Views" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Private_repos-96-0D1117?style=flat-square&amp;logo=github&amp;logoColor=22D3EE" alt="96 private repositories" />
+  <img src="https://img.shields.io/badge/Public_repos-39-0D1117?style=flat-square&amp;logoColor=22D3EE" alt="39 public repositories" />
+  <img src="https://img.shields.io/badge/Total-135-0D1117?style=flat-square&amp;logoColor=22D3EE" alt="135 repositories in total" />
 </p>
 
 <p align="center">
@@ -46,7 +52,7 @@ const azizur = {
   location:   "Uttara, Dhaka, Bangladesh",
   stack:      ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "MongoDB"],
   building:   ["Shopify apps", "Multi-tenant SaaS", "E-commerce platforms"],
-  writes:     "RMN Labs — SEO, Next.js, API security & performance",
+  studio:     "RMN Labs — Dhaka-based software studio",
   experience: "4+ years · 30+ ThemeForest/CodeCanyon items",
   contact:    "hello@azizur-rahman.com",
 };
@@ -108,23 +114,71 @@ const azizur = {
 
 ## Featured work
 
+Most of the production work lives in private repositories (**96 private**, **39 public**). Suites below are described from those repos and live demos; private repo URLs are omitted (they would 404). Code for the private apps and templates is available on request.
+
 <table>
   <tr>
     <td valign="top" width="50%">
       <h3>Zestify</h3>
-      <p>Multi-tenant restaurant SaaS: a Next.js customer app, React admin, and Node/Express API. Reservations, inventory, analytics, Stripe and PayPal checkout, RBAC, tenant isolation, and a provider-agnostic LLM assistant (Gemini, Groq, or Claude). Listed on CodeCanyon.</p>
+      <p>Multi-tenant restaurant SaaS. The suite includes a Next.js 15 customer app, a React 19 + Vite 7 admin dashboard, an Express API (orders, reservations, Stripe and PayPal), and a Next.js onboarding app for public pricing, signup, Stripe checkout, and provisioning. A v2 client, admin, and API add platform subscription billing. Listed on CodeCanyon. Most of the suite is private; the customer app is public.</p>
       <p>
-        <a href="https://zestify-client.vercel.app">Live demo</a>
+        <a href="https://zestify-v2-client.vercel.app">v2 storefront</a>
+        ·
+        <a href="https://zestify-v2-admin.vercel.app">v2 admin</a>
+        ·
+        <a href="https://zestify-onboarding.vercel.app">Onboarding</a>
+        ·
+        <a href="https://zestify-saas.vercel.app">v2 showcase</a>
+        ·
+        <a href="https://zestify-landing.vercel.app">Landing</a>
         ·
         <a href="https://github.com/AzizurRahmanEmon/zestify-client">zestify-client</a>
       </p>
     </td>
     <td valign="top" width="50%">
       <h3>Vellure</h3>
-      <p>Multi-tenant e-commerce SaaS: tenant-scoped REST API, Vite/React admin, and per-store Next.js storefronts. Stripe subscription billing, webhooks, store provisioning, plan limits, and a plan-gated AI assistant.</p>
+      <p>Multi-tenant fashion / e-commerce SaaS: a Next.js storefront, a React + TypeScript admin, an Express + MongoDB + TypeScript API, and a Next.js onboarding app for landing pages, signup, plan selection, and checkout handoff. Shop, cart, wishlist, coupons, and checkout (Stripe, PayPal, cash on delivery). Private — code on request.</p>
       <p>
-        <a href="https://vellure-saas.vercel.app">Live demo</a>
+        <a href="https://vellure-saas.vercel.app">Showcase</a>
+        ·
+        <a href="https://vellure-client.vercel.app">Storefront</a>
+        ·
+        <a href="https://vellure-admin.vercel.app">Admin</a>
+        ·
+        <a href="https://vellure-onboarding.vercel.app">Onboarding</a>
       </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>Lunovaire</h3>
+      <p>Clothing e-commerce platform: a Next.js customer storefront, an Express + MongoDB + TypeScript API, and a React + TypeScript admin. Shop by gender and category, cart, wishlist, coupons, and checkout (Stripe, PayPal, cash on delivery). Private — code on request.</p>
+      <p>
+        <a href="https://lunovaire-client.vercel.app">Storefront</a>
+        ·
+        <a href="https://lunovaire-admin.vercel.app">Admin</a>
+      </p>
+    </td>
+    <td valign="top">
+      <h3>RMN Labs</h3>
+      <p>A Dhaka-based software studio that ships production web apps, SaaS platforms, and design-to-code work — payments, auth, and deployment included. The studio site is a private Next.js app. Products include Zestify, Vellure, and Lunovaire.</p>
+      <p>
+        <a href="https://x.com/rmnlab">@rmnlab on X</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
+      <h3>Marketplace templates</h3>
+      <p>ThemeForest-style template families (private — code on request), including:</p>
+      <ul>
+        <li><strong>Eduleb</strong> — education / LMS templates in HTML, React, Next.js, and a Sanity Jamstack variant. <a href="https://eduleb-jamstack.vercel.app">Jamstack demo</a></li>
+        <li><strong>Eduor</strong> — Next.js education template family (including Jamstack, Sanity, and docs), with courses, events, and blog pages.</li>
+        <li><strong>Eduan</strong> — e-learning and online education templates in React and Next.js.</li>
+        <li><strong>Niko</strong> — personal portfolio templates in React, Next.js, and a Sanity Jamstack variant. <a href="https://niko-reactjs.azizur-rahman.com/">React demo</a> · <a href="https://niko-nextjs.azizur-rahman.com/">Next.js demo</a> · <a href="https://niko-jamstack.vercel.app">Jamstack demo</a></li>
+        <li><strong>Seoz</strong> — SEO and digital marketing agency templates in React and Next.js.</li>
+        <li><strong>Zestify templates</strong> — restaurant, cafe, and juice bar site templates in HTML, Tailwind, React, and Next.js (separate from the SaaS suite). <a href="https://zestify-react.vercel.app">React demo</a></li>
+      </ul>
     </td>
   </tr>
   <tr>
@@ -155,12 +209,18 @@ const azizur = {
 
 - **Building** Shopify apps
 - **Freelancing** since Jul 2025 — 26+ React and Next.js projects for European clients
-- **Writing** at RMN Labs on SEO, Next.js, and API security and performance
+- **Running** RMN Labs, a Dhaka-based software studio
 - **Open to** remote full-time, contract, or freelance work
 
 ---
 
 ## GitHub
+
+Most of this profile’s public contribution graph understates the work: **96 of 135 repositories are private**. The language bar below is a static snapshot of GitHub language bytes across all of them, taken on 17 Nov 2026 (Asia/Dhaka). A scheduled Action cannot refresh it without a personal access token that can read private repos.
+
+<p align="center">
+  <img src="./assets/languages.svg" alt="Language mix across 135 public and private repositories: TypeScript 53.14%, HTML 16.65%, JavaScript 13.83%, CSS 11.55%, SCSS 4.81%" width="100%" />
+</p>
 
 ### Contribution calendar
 
@@ -215,8 +275,8 @@ const azizur = {
     <img src="https://img.shields.io/badge/Email-Say%20hello-0D1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=22D3EE" alt="Email" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://x.com/Azizur_rahmanE">
-    <img src="https://img.shields.io/badge/X-@Azizur__rahmanE-0D1117?style=for-the-badge&amp;logo=x&amp;logoColor=22D3EE" alt="X" />
+  <a href="https://x.com/rmnlab">
+    <img src="https://img.shields.io/badge/X-@rmnlab-0D1117?style=for-the-badge&amp;logo=x&amp;logoColor=22D3EE" alt="X @rmnlab" />
   </a>
 </p>
 
