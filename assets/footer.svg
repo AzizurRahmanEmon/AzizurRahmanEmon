@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title">
+  <title id="title">Cyan geometric footer rule</title>
+  <defs>
+    <linearGradient id="fade-right" x1="40" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="fade-left" x1="640" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="72" rx="12"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="72" fill="#0D1117"/>
+    <path d="M48 36H564" fill="none" stroke="url(#fade-right)" stroke-width="1.5"/>
+    <path d="M636 36H1152" fill="none" stroke="url(#fade-left)" stroke-width="1.5"/>
+    <rect x="594" y="30" width="12" height="12" fill="none" stroke="#22D3EE" stroke-width="1.5" transform="rotate(45 600 36)"/>
+  </g>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Azizur Rahman</title>
+  <desc id="desc">Full Stack Developer in Uttara, Dhaka, Bangladesh — production SaaS, e-commerce, and marketplace products.</desc>
+  <defs>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="0.82" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="side-bar" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="scan-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow-tl" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 40) scale(620 360)">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-br" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 290) scale(560 320)">
+      <stop stop-color="#0891B2" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1" fill="#22D3EE" fill-opacity="0.10"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+    <style>
+      .scan {
+        animation: scan 8s linear infinite;
+      }
+      @keyframes scan {
+        0%   { transform: translateY(-48px); opacity: 0; }
+        12%  { opacity: 1; }
+        88%  { opacity: 1; }
+        100% { transform: translateY(336px); opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1.15s steps(1, end) infinite;
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .pulse {
+        animation: pulse 2.4s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .bar {
+        transform-box: fill-box;
+        transform-origin: center top;
+        animation: grow 1.1s ease-out both;
+      }
+      @keyframes grow {
+        from { transform: scaleY(0); }
+        to   { transform: scaleY(1); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="#0D1117"/>
+    <rect width="1200" height="320" fill="url(#glow-tl)"/>
+    <rect width="1200" height="320" fill="url(#glow-br)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+
+    <!-- top hairline -->
+    <path d="M0 1h1200" stroke="url(#accent-line)" stroke-width="2"/>
+
+    <!-- left accent bar -->
+    <rect class="bar" x="0" y="28" width="6" height="264" fill="url(#side-bar)"/>
+
+    <!-- scan line -->
+    <rect class="scan" x="0" y="0" width="1200" height="36" fill="url(#scan-grad)"/>
+
+    <!-- typography -->
+    <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+      <text x="64" y="86" fill="#8B949E" font-size="14" font-weight="600" letter-spacing="3.2">FULL STACK DEVELOPER</text>
+      <text x="332" y="86" fill="#22D3EE" font-size="14" font-weight="600" letter-spacing="1">/</text>
+      <text x="350" y="86" fill="#8B949E" font-size="14" font-weight="600" letter-spacing="3.2">UTTARA, DHAKA</text>
+
+      <text x="64" y="158" fill="#E6EDF3" font-size="68" font-weight="700" letter-spacing="-1.6">Azizur Rahman</text>
+
+      <text x="64" y="206" fill="#22D3EE" font-size="22" font-weight="500">React  ·  Next.js  ·  Node.js  ·  TypeScript</text>
+
+      <text x="64" y="248" fill="#8B949E" font-size="18">Production SaaS, e-commerce, and 30+ marketplace items</text>
+    </g>
+
+    <path d="M64 262h280" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- mono prompt -->
+    <g font-family="SF Mono, Consolas, Liberation Mono, Menlo, Courier, monospace" font-size="13" fill="#8B949E">
+      <text x="64" y="294">~/dev</text>
+      <text x="108" y="294" fill="#22D3EE">$</text>
+      <text x="122" y="294" fill="#C9D1D9"> building Shopify apps</text>
+      <rect class="cursor" x="292" y="283" width="8" height="14" fill="#22D3EE"/>
+    </g>
+
+    <!-- monogram -->
+    <g transform="translate(940 84)">
+      <rect x="8" y="8" width="152" height="152" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <path d="M20 48V20h28" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="square"/>
+      <path d="M148 48V20h-28" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="square"/>
+      <path d="M20 120v28h28" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="square"/>
+      <path d="M148 120v28h-28" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="square"/>
+      <text x="84" y="108" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#E6EDF3" letter-spacing="2">AR</text>
+    </g>
+
+    <!-- availability pill -->
+    <g transform="translate(948 256)">
+      <rect x="0" y="0" width="168" height="28" rx="14" fill="#161B22" stroke="#30363D"/>
+      <circle class="pulse" cx="16" cy="14" r="4" fill="#22D3EE"/>
+      <text x="28" y="18" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#C9D1D9">Open to remote work</text>
+    </g>
+
+    <!-- bottom hairline -->
+    <path d="M0 319h1200" stroke="url(#accent-line)" stroke-width="2"/>
+  </g>
+</svg>
